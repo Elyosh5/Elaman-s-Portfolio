@@ -1,4 +1,3 @@
-import scss from "./Navigation.module.scss";
 import { IoHomeOutline } from "react-icons/io5";
 import { LiaProjectDiagramSolid } from "react-icons/lia";
 
