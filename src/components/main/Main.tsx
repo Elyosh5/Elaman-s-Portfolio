@@ -23,13 +23,18 @@ const Main = () => {
             Junior Frontend Developer with a passion for building modern,
             user-friendly web experiences. I’ve spent the past year mastering
             HTML, CSS, JavaScript, TypeScript, React, and Next.js, creating
-            clean, responsive interfaces. I’m driven by curiosity and the desire
-            to keep learning as the tech world evolves. Ready to bring my skills
-            to real-world projects and make an impact.
+            clean, responsive interfaces
           </p>
-          <a href="https://drive.google.com/file/d/1ex7ZgLg77jIWId48AZdpd53o3zDJ4F_u/view?usp=drive_link">
-            Know Me
-          </a>
+
+          <button className="btn hologram">
+            <a
+              href="https://drive.google.com/file/d/1ex7ZgLg77jIWId48AZdpd53o3zDJ4F_u/view?usp=drive_link"
+              data-text="Hologram"
+            >
+              Know Me
+            </a>
+            <div className="scan-line"></div>
+          </button>
         </div>
       </div>
     </div>
