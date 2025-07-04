@@ -1,5 +1,4 @@
 import Navigation from "./navigation/Navigation";
-import { FC, ReactNode } from "react";
 import scss from "./Layout.module.scss";
 import Projects from "./projects/Projects";
 

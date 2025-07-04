@@ -1,19 +1,13 @@
 import Main from "./main/Main";
 import Navigation from "./navigation/Navigation";
-import { FC, ReactNode } from "react";
 import scss from "./Layout.module.scss";
 
-interface ILayoutProps {
-  children: ReactNode;
-}
-
-const Layout: FC<ILayoutProps> = ({ children }) => {
+const Layout = () => {
   return (
     <div className={scss.layout}>
       <main>
         <Main />
       </main>
-
       <Navigation />
     </div>
   );
