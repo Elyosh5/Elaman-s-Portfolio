@@ -20,7 +20,7 @@ const Navigation = () => {
           </div>
 
           <div className="button-container-2">
-            <Link href="/">
+            <Link href="/projects">
               <span className="mas">Projects</span>
               <button type="button" name="Hover">
                 <LiaProjectDiagramSolid />

@@ -1,22 +1,17 @@
-import Main from "./main/Main";
 import Navigation from "./navigation/Navigation";
 import { FC, ReactNode } from "react";
 import scss from "./Layout.module.scss";
+import Projects from "./projects/Projects";
 
-interface ILayoutProps {
-  children: ReactNode;
-}
-
-const Layout: FC<ILayoutProps> = ({ children }) => {
+const ProjectLayout = () => {
   return (
     <div className={scss.layout}>
       <main>
-        <Main />
+        <Projects />
       </main>
-
       <Navigation />
     </div>
   );
 };
 
-export default Layout;
+export default ProjectLayout;
