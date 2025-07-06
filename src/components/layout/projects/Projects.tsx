@@ -38,7 +38,7 @@ const myProject = {
   project5: {
     title: "Solar-system",
     description:
-      "A simple solar system website built with Html, Css, vanilla JavaScript and ThreeJs.",
+      "Solar system website built with Html, Css, vanilla JavaScript and ThreeJs.",
     link: "solar-system-seven-kohl.vercel.app",
     image: "/Solar-system.png",
     id: 4,
@@ -49,7 +49,6 @@ const Projects = () => {
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
 
-  
   const projectsArray = Object.values(myProject);
   const currentProject = projectsArray[currentProjectIndex];
 
@@ -102,7 +101,7 @@ const Projects = () => {
                 </a>
               </div>
               <div className={scss.arrows}>
-                <FaArrowLeft      
+                <FaArrowLeft
                   id={scss.arrow}
                   onClick={prevProject}
                   style={{ cursor: "pointer" }}

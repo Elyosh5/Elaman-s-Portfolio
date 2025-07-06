@@ -28,7 +28,7 @@ const Main = () => {
 
           <button className="btn hologram">
             <a
-              href="https://drive.google.com/file/d/1ex7ZgLg77jIWId48AZdpd53o3zDJ4F_u/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1umXUo6HGNtVbTuOusEnBoyFKIkJLPHWh/view?usp=drive_link"
               data-text="Hologram"
             >
               Know Me
